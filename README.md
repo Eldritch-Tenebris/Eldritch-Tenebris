@@ -1,4 +1,4 @@
-### **🔥 Eldritch-Tenebris | Especialista em Backend & Desenvolvimento de Bots para Discord**  
+### **🔥 Eldritch Tenebris | Especialista em Backend & Desenvolvimento de Bots para Discord**  
 
 <div align="center">
   <a href="https://github.com/Eldritch-Tenebris">
