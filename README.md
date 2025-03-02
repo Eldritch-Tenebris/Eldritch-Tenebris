@@ -1,16 +1,30 @@
-## Hi there 👋
+<div align="center">
+  <a href="https://github.com/Eldritch-Tenebris">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Eldritch-Tenebris&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eldritch-Tenebris&layout=compact&langs_count=7&theme=tokyonight"/>
+  </a>
+</div>
 
-<!--
-**Eldritch-Tenebris/Eldritch-Tenebris** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🎮 Desenvolvedor de Bots Discord & Backend
 
-Here are some ideas to get you started:
+<div style="display: inline_block"><br>
+  <img align="center" alt="TS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Node" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="MongoDB" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🚀 Principais Projetos
+
+- [**DiscordPy-Base**](https://github.com/Eldritch-Tenebris/DiscordPy-Base) - Base moderna para bots Discord em Python
+- [**Base-Typescript**](https://github.com/Eldritch-Tenebris/Base-Typescript) - Base moderna para bots Discord em TypeScript
+
+### 📊 Estatísticas GitHub
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Eldritch-Tenebris&theme=tokyonight)
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Eldritch-Tenebris&color=blue&style=flat"/>
+</div>
