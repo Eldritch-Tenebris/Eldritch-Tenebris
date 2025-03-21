@@ -2,24 +2,44 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 */1 * * *"  # Executa a cada 1 hora
+    - cron: "*/1 * * * *"  # Executa a cada 1 minuto
   workflow_dispatch:  # Permite execução manual
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
-
-      - name: Atualizar README
-        run: |
-          curl -o README.md https://raw.githubusercontent.com/Eldritch-Tenebris/Eldritch-Tenebris/main/README.md
-
-      - name: Commit e Push
+        with:
+          fetch-depth: 0  # Garante que todo o histórico seja baixado
+      
+      - name: Configurar Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Atualizar README
+        run: |
+          curl -s -o README.md https://raw.githubusercontent.com/Eldritch-Tenebris/Eldritch-Tenebris/main/README.md
+      
+      - name: Verificar alterações
+        id: verify_changes
+        run: |
+          if [[ -z $(git status --porcelain README.md) ]]; then
+            echo "No changes detected in README"
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in README"
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit e Push
+        if: steps.verify_changes.outputs.changes_detected == 'true'
+        run: |
           git add README.md
-          git commit -m "Atualizando README automaticamente" || exit 0
+          git commit -m "📝 Atualizando README automaticamente [$(date +'%d/%m/%Y %H:%M:%S')]"
           git push
