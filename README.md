@@ -1,6 +1,11 @@
 # **🔮 Eldritch Tenebris | Especialista em Backend & Desenvolvimento de Bots para Discord**
 
 <div align="center">
+  <img src="https://img.shields.io/badge/Última%20Atualização-2025--06--05%2001:39:47%20UTC-6e57d4?style=for-the-badge&logo=clockify&logoColor=white" alt="Última Atualização" />
+  <img src="https://img.shields.io/badge/Profile-Eldritch--Tenebris-6e57d4?style=for-the-badge&logo=github&logoColor=white" alt="Profile" />
+</div>
+
+<div align="center">
   <a href="https://github.com/Eldritch-Tenebris">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Eldritch-Tenebris&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true"/>
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eldritch-Tenebris&layout=compact&langs_count=8&theme=midnight-purple"/>
@@ -9,10 +14,26 @@
 
 ---
 
-## **🚀 Tecnologias & Ferramentas**
+## **🚀 Stack Tecnológico**
 
+### 💻 Languages
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,mongodb,python,discord,github,git,docker,linux,supabase,postgres,html,css,tailwind,nextjs,vite" />
+  <img src="https://skillicons.dev/icons?i=ts,js,python,html,css" />
+</div>
+
+### 🛠 Frameworks & Libraries
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,nextjs,tailwind,vite" />
+</div>
+
+### 🗄️ Databases & Cloud
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=mongodb,supabase,postgres" />
+</div>
+
+### 🔧 DevOps & Tools
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=docker,linux,github,git,discord" />
 </div>
 
 ---
@@ -74,4 +95,10 @@
   <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-souza-pereira-271aa4202" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%236e57d4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+</div>
+
+---
+
+<div align="center">
+  <sub>🕒 Última atualização: 2025-06-05 01:39:47 UTC | 👤 Profile: Eldritch-Tenebris</sub>
 </div>
