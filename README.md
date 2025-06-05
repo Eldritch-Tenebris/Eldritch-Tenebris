@@ -12,7 +12,7 @@
 ## **🚀 Tecnologias & Ferramentas**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,mongodb,python,discord,github,git,docker,linux" />
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,mongodb,python,discord,github,git,docker,linux,supabase,postgres,html,css,tailwind,nextjs,vite" />
 </div>
 
 ---
